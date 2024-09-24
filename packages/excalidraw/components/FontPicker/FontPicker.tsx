@@ -24,11 +24,17 @@ export const DEFAULT_FONTS = [
     testId: "font-family-handrawn",
   },
   {
-    value: FONT_FAMILY.Nunito,
+    value: FONT_FAMILY.SquareTime,
     icon: FontFamilyNormalIcon,
     text: t("labels.normal"),
-    testId: "font-family-normal",
+    testId: "font-family-SquareTime",
   },
+  // {
+  //   value: FONT_FAMILY.Nunito,
+  //   icon: FontFamilyNormalIcon,
+  //   text: t("labels.normal"),
+  //   testId: "font-family-normal",
+  // }
   {
     value: FONT_FAMILY["Comic Shanns"],
     icon: FontFamilyCodeIcon,

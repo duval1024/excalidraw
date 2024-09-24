@@ -17,6 +17,7 @@ import {
 } from "./metadata";
 import { ExcalidrawFont, type Font } from "./ExcalidrawFont";
 import { getContainerElement } from "../element/textElement";
+import SquareFont from "./assets/SquareTime.ttf";
 
 import Virgil from "./assets/Virgil-Regular.woff2";
 import Excalifont from "./assets/Excalifont-Regular.woff2";
@@ -246,6 +247,10 @@ export class Fonts {
       { uri: LilitaLatinExt, descriptors: { unicodeRange: RANGES.LATIN_EXT } },
       { uri: LilitaLatin, descriptors: { unicodeRange: RANGES.LATIN } },
     );
+
+    _register("SquareTime", FONT_METADATA[FONT_FAMILY.Excalifont], {
+      uri: SquareFont,
+    });
 
     _register(
       "Nunito",

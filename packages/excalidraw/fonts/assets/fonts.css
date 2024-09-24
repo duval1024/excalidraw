@@ -33,3 +33,11 @@
   style: normal;
   display: swap;
 }
+
+@font-face {
+  font-family: "SquareTime";
+  src: url(./SquareTime.ttf) format("truetype");
+  font-weight: 700;
+  style: normal;
+  display: swap;
+}
